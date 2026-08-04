@@ -1,107 +1,42 @@
 <!doctype html>
 <html lang="en" data-lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Yangang Zhang — robotics and embodied AI leader, researcher, and builder.">
-  <meta name="theme-color" content="#101719">
-  <title>Yangang Zhang | Robotics & Embodied AI</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@500;600;700&family=Noto+Sans+SC:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Yangang Zhang — AI and robotics researcher and engineering leader.">
+  <title>Yangang Zhang | 张彦刚</title><link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="noise"></div>
-  <header class="nav shell">
-    <a class="mark" href="#top" aria-label="Home">YZ<span>.</span></a>
-    <nav aria-label="Main navigation">
-      <a href="#about"><span data-en="About" data-zh="关于">About</span></a>
-      <a href="#focus"><span data-en="Focus" data-zh="方向">Focus</span></a>
-      <a href="#journey"><span data-en="Journey" data-zh="经历">Journey</span></a>
-      <a href="#connect"><span data-en="Connect" data-zh="联系">Connect</span></a>
-    </nav>
-    <button class="lang" type="button" aria-label="Switch language">中文</button>
-  </header>
+<header><div class="wrap nav"><a class="name" href="#top">Yangang Zhang</a><nav><a href="#experience" data-en="Experience" data-zh="经历">Experience</a><a href="#work" data-en="Selected Work" data-zh="代表工作">Selected Work</a><a href="#publications" data-en="Publications" data-zh="论文">Publications</a><button id="lang">中文</button></nav></div></header>
+<main class="wrap" id="top">
+  <section class="intro">
+    <img src="https://avatars.githubusercontent.com/u/6065371?v=4" alt="Yangang Zhang">
+    <div><h1>Yangang Zhang <small>张彦刚</small></h1>
+      <p class="role" data-en="AI & Robotics Researcher · Engineering Leader" data-zh="人工智能与机器人研究者 · 技术负责人">AI & Robotics Researcher · Engineering Leader</p>
+      <p data-en="I have nearly two decades of experience in artificial intelligence, computer vision, computing systems, and robotics. For the past decade, I have focused on robotics research, engineering, and team building—from algorithms and models to complete systems operating in the real world." data-zh="拥有近二十年人工智能、计算机视觉、计算系统和机器人研发经验。近十年持续从事机器人技术研发、工程系统与团队建设，工作覆盖从算法和模型到真实场景中的完整机器人系统。">I have nearly two decades of experience in artificial intelligence, computer vision, computing systems, and robotics. For the past decade, I have focused on robotics research, engineering, and team building—from algorithms and models to complete systems operating in the real world.</p>
+      <p data-en="I received both my B.E. and M.E. in Electronic Information from Zhejiang University. My current interests include embodied foundation models, generalist robot learning, scalable robot data systems, and the translation of research into reliable products." data-zh="本科、硕士毕业于浙江大学电子信息类专业。目前主要关注具身基础模型、通用机器人学习、可规模化的机器人数据系统，以及研究成果向可靠产品的转化。">I received both my B.E. and M.E. in Electronic Information from Zhejiang University. My current interests include embodied foundation models, generalist robot learning, scalable robot data systems, and the translation of research into reliable products.</p>
+      <div class="links"><a href="mailto:caveman1984@gmail.com">Email</a><a href="https://github.com/zhangyangang">GitHub</a></div>
+    </div>
+  </section>
 
-  <main id="top">
-    <section class="hero shell">
-      <div class="hero-copy reveal">
-        <p class="eyebrow" data-en="ROBOTICS · EMBODIED AI · SYSTEMS" data-zh="机器人 · 具身智能 · 系统工程">ROBOTICS · EMBODIED AI · SYSTEMS</p>
-        <h1><span data-en="Building intelligence" data-zh="构建智能，">Building intelligence</span><br><em data-en="that acts." data-zh="让它行动。">that acts.</em></h1>
-        <p class="lede" data-en="I’m Yangang Zhang — an AI and robotics technology leader with nearly two decades of experience building intelligent systems and teams." data-zh="我是张彦刚，一名拥有近二十年研发经验的人工智能与机器人技术负责人。">I’m Yangang Zhang — an AI and robotics technology leader with nearly two decades of experience building intelligent systems and teams.</p>
-        <div class="actions">
-          <a class="button primary" href="#connect"><span data-en="Start a conversation" data-zh="与我交流">Start a conversation</span> <span>↗</span></a>
-          <a class="button quiet" href="https://github.com/zhangyangang" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
-        </div>
-      </div>
-      <div class="portrait-wrap reveal delay">
-        <div class="orbit"><span></span><span></span><span></span></div>
-        <img src="https://avatars.githubusercontent.com/u/6065371?v=4" alt="Yangang Zhang" class="portrait">
-        <div class="status"><i></i><span data-en="Open to research & industry dialogue" data-zh="开放学术与产业交流">Open to research & industry dialogue</span></div>
-      </div>
-    </section>
+  <section id="experience"><h2 data-en="Experience" data-zh="工作经历">Experience</h2>
+    <div class="exp"><time>2020–2026</time><div><h3 data-en="ByteDance — Technical Lead, AI Lab Robotics / Seed Robotics" data-zh="字节跳动 — AI Lab Robotics / Seed Robotics 技术负责人">ByteDance — Technical Lead, AI Lab Robotics / Seed Robotics</h3><p data-en="Built a full-stack robotics R&D organization from the ground up and led a team of around 100. The organization covered robot hardware, data, foundation models and algorithms, orchestration, platform, evaluation, product, and operations, with deployment at scale in real environments." data-zh="从零到一组建并管理约百人的机器人全链路研发团队，覆盖机器人本体、数据、基础模型与算法、调度、平台、评测及产品运营，推动技术在真实场景落地和规模化应用。">Built a full-stack robotics R&D organization from the ground up and led a team of around 100. The organization covered robot hardware, data, foundation models and algorithms, orchestration, platform, evaluation, product, and operations, with deployment at scale in real environments.</p></div></div>
+    <div class="exp"><time>2016–2020</time><div><h3 data-en="OrionStar — Robotics R&D Lead" data-zh="猎户星空 — 机器人研发负责人">OrionStar — Robotics R&D Lead</h3><p data-en="Led robot vision, manipulation, navigation, and system development; established the core technology stack for service robots and robotic manipulation." data-zh="负责机器人视觉、机械臂、导航及系统研发，从零建设机器人核心技术体系，积累服务机器人、机械臂操作与机器人系统算法的完整实践。">Led robot vision, manipulation, navigation, and system development; established the core technology stack for service robots and robotic manipulation.</p></div></div>
+    <div class="exp"><time data-en="Earlier" data-zh="职业早期">Earlier</time><div><h3 data-en="VIA / S3 Graphics · iQIYI" data-zh="威盛电子 / S3 Graphics · 爱奇艺">VIA / S3 Graphics · iQIYI</h3><p data-en="Senior GPU architect at VIA / S3 Graphics, working on GPU architecture, video codecs, ISP, and image processing. Later, senior architect and researcher at iQIYI, leading deep-learning platforms, video intelligence, computer vision, and VR." data-zh="曾任威盛电子 S3 Graphics 资深 GPU 架构师，从事 GPU 架构、视频编解码、ISP 与图像处理；后任爱奇艺媒体智能高级架构师/高级研究员，负责深度学习平台、视频分析、计算机视觉与虚拟现实。">Senior GPU architect at VIA / S3 Graphics, working on GPU architecture, video codecs, ISP, and image processing. Later, senior architect and researcher at iQIYI, leading deep-learning platforms, video intelligence, computer vision, and VR.</p></div></div>
+  </section>
 
-    <section class="statement shell reveal" id="about">
-      <p class="section-no">01 / <span data-en="ABOUT" data-zh="关于">ABOUT</span></p>
-      <div>
-        <h2 data-en="From research ideas to systems that work in the physical world." data-zh="从研究想法，到在物理世界真正工作的系统。">From research ideas to systems that work in the physical world.</h2>
-        <p data-en="I hold bachelor’s and master’s degrees in Electronic Information from Zhejiang University. For nearly a decade, I have focused on robotics R&D and team building, connecting frontier research with engineering systems and real-world deployment." data-zh="本科、硕士毕业于浙江大学电子信息类专业。近十年来持续从事机器人技术研发与团队建设，推动前沿研究、工程系统与真实场景落地相结合。">I hold bachelor’s and master’s degrees in Electronic Information from Zhejiang University. For nearly a decade, I have focused on robotics R&D and team building, connecting frontier research with engineering systems and real-world deployment.</p>
-      </div>
-    </section>
+  <section id="work"><h2 data-en="Selected Work" data-zh="代表工作">Selected Work</h2>
+    <article class="work"><div class="tag">01</div><div><h3 data-en="Seed Robotics: a full-stack robotics organization" data-zh="Seed Robotics：机器人全链路研发体系">Seed Robotics: a full-stack robotics organization</h3><p data-en="Built an integrated organization across embodiment, data, learning, infrastructure, evaluation, and deployment. The team developed a unified engineering and evaluation loop for iterating research on real robots." data-zh="构建覆盖本体、数据、模型学习、基础设施、评测与落地的完整研发组织，并建立统一工程体系和真机评测闭环。">Built an integrated organization across embodiment, data, learning, infrastructure, evaluation, and deployment. The team developed a unified engineering and evaluation loop for iterating research on real robots.</p></div></article>
+    <article class="work"><div class="tag">02</div><div><h3 data-en="Generalist robot models and learning systems" data-zh="通用机器人模型与学习系统">Generalist robot models and learning systems</h3><p data-en="Work spanning vision-language-action models, multimodal reasoning, navigation, manipulation, data scaling, and real-world generalization—including GR-3, Astra, BagelVLA, and VLingNav." data-zh="围绕视觉-语言-动作模型、多模态推理、导航、操作、数据规模化与真实场景泛化开展系统研究，包括 GR-3、Astra、BagelVLA 与 VLingNav。">Work spanning vision-language-action models, multimodal reasoning, navigation, manipulation, data scaling, and real-world generalization—including GR-3, Astra, BagelVLA, and VLingNav.</p><p class="meta"><a href="https://seed.bytedance.com/en/direction/robotics">Seed Robotics ↗</a> <a href="https://seed.bytedance.com/GR3">GR-3 ↗</a></p></div></article>
+    <article class="work"><div class="tag">03</div><div><h3 data-en="Robotics in real-world applications" data-zh="机器人真实场景应用">Robotics in real-world applications</h3><p data-en="Long-term practice in turning research into deployed systems—from service robots and industrial applications to dynamic humanoid soccer." data-zh="长期推动研究成果进入真实系统，覆盖服务机器人、工业场景与动态人形机器人足球等方向。">Long-term practice in turning research into deployed systems—from service robots and industrial applications to dynamic humanoid soccer.</p></div></article>
+  </section>
 
-    <section class="focus shell" id="focus">
-      <p class="section-no">02 / <span data-en="WHAT I FOCUS ON" data-zh="关注方向">WHAT I FOCUS ON</span></p>
-      <div class="cards">
-        <article class="card reveal">
-          <span class="card-no">01</span>
-          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 16l16-9 16 9v17l-16 9-16-9zM8 16l16 9 16-9M24 25v17"/></svg>
-          <h3 data-en="Embodied Foundation Models" data-zh="具身基础模型">Embodied Foundation Models</h3>
-          <p data-en="Generalist policies, VLA, world models, data scaling, and learning architectures for robots." data-zh="通用策略、VLA、世界模型、数据规模化与机器人学习架构。">Generalist policies, VLA, world models, data scaling, and learning architectures for robots.</p>
-        </article>
-        <article class="card reveal delay-sm">
-          <span class="card-no">02</span>
-          <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="16"/><path d="M24 8v32M8 24h32M13 13l22 22M35 13L13 35"/></svg>
-          <h3 data-en="Full-stack Robotics" data-zh="机器人全栈系统">Full-stack Robotics</h3>
-          <p data-en="Connecting algorithms, software, hardware, evaluation, and operations into one coherent system." data-zh="将算法、软件、硬件、评测和运营连接成统一、可迭代的系统。">Connecting algorithms, software, hardware, evaluation, and operations into one coherent system.</p>
-        </article>
-        <article class="card reveal delay-md">
-          <span class="card-no">03</span>
-          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M9 38V24h10v14M19 38V15h10v23M29 38V8h10v30M6 38h36"/></svg>
-          <h3 data-en="Research to Deployment" data-zh="从研究到落地">Research to Deployment</h3>
-          <p data-en="Turning promising research into measurable capability and durable value in real environments." data-zh="把有潜力的研究转化为真实环境中可度量的能力与可持续价值。">Turning promising research into measurable capability and durable value in real environments.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="journey shell" id="journey">
-      <p class="section-no">03 / <span data-en="JOURNEY" data-zh="经历">JOURNEY</span></p>
-      <div class="timeline">
-        <article class="reveal"><time>2026 —</time><div><h3 data-en="Independent research & industry exploration" data-zh="独立研究与产业探索">Independent research & industry exploration</h3><p data-en="Exploring the next chapter of embodied intelligence across frontier research, system architecture, and real-world applications." data-zh="围绕前沿研究、系统架构与真实场景应用，持续探索具身智能的下一阶段。">Exploring the next chapter of embodied intelligence across frontier research, system architecture, and real-world applications.</p></div></article>
-        <article class="reveal"><time>2020 — 2026</time><div><h3 data-en="ByteDance · AI Lab Robotics / Seed Robotics" data-zh="字节跳动 · AI Lab Robotics / Seed Robotics">ByteDance · AI Lab Robotics / Seed Robotics</h3><p data-en="Technology lead. Built and managed a full-stack robotics R&D organization of around 100 people, spanning robot hardware, data, models, orchestration, platforms, evaluation, product, and operations—driving deployment at scale in real environments." data-zh="担任技术负责人，从零到一组建并管理约百人的机器人全链路研发团队，覆盖本体、数据、模型算法、调度、平台、评测及产品运营，推动技术在真实场景落地和规模化应用。">Technology lead. Built and managed a full-stack robotics R&D organization of around 100 people, spanning robot hardware, data, models, orchestration, platforms, evaluation, product, and operations—driving deployment at scale in real environments.</p></div></article>
-        <article class="reveal"><time>2016 — 2020</time><div><h3 data-en="OrionStar · Robotics" data-zh="猎户星空 · 机器人">OrionStar · Robotics</h3><p data-en="Led vision, manipulation, navigation, and related systems, building the company’s core robotics technology stack from the ground up." data-zh="负责机器人视觉、机械臂、导航及相关系统研发，从零建设机器人核心技术体系。">Led vision, manipulation, navigation, and related systems, building the company’s core robotics technology stack from the ground up.</p></div></article>
-        <article class="reveal"><time data-en="EARLIER" data-zh="职业早期">EARLIER</time><div><h3 data-en="VIA / S3 Graphics · iQIYI" data-zh="威盛电子 / S3 Graphics · 爱奇艺">VIA / S3 Graphics · iQIYI</h3><p data-en="Senior GPU architect at VIA / S3 Graphics, working on GPU architecture, video codecs, ISP, and image processing; later senior architect and researcher at iQIYI, leading deep-learning platforms, video intelligence, computer vision, and VR." data-zh="曾任威盛电子 S3 Graphics 资深 GPU 架构师，从事 GPU 架构、视频编解码、ISP 与图像处理；后任爱奇艺媒体智能高级架构师/高级研究员，负责深度学习平台、视频分析、计算机视觉与虚拟现实。">Senior GPU architect at VIA / S3 Graphics, working on GPU architecture, video codecs, ISP, and image processing; later senior architect and researcher at iQIYI, leading deep-learning platforms, video intelligence, computer vision, and VR.</p></div></article>
-      </div>
-    </section>
-
-    <section class="principle shell reveal">
-      <blockquote>
-        <span>“</span>
-        <p data-en="The interesting question is not whether a robot can perform one task, but how we build a system that keeps learning, generalizing, and creating value." data-zh="真正有意思的问题，不是机器人能否完成一个任务，而是如何构建一个能够持续学习、泛化并创造价值的系统。">The interesting question is not whether a robot can perform one task, but how we build a system that keeps learning, generalizing, and creating value.</p>
-      </blockquote>
-    </section>
-
-    <section class="connect" id="connect">
-      <div class="shell reveal">
-        <p class="section-no">04 / <span data-en="CONNECT" data-zh="联系">CONNECT</span></p>
-        <h2 data-en="Let’s build what comes next." data-zh="一起构建下一步。">Let’s build what comes next.</h2>
-        <p data-en="I welcome conversations with researchers, founders, investors, and builders working on ambitious problems in robotics and AI." data-zh="欢迎机器人与人工智能领域的研究者、创业者、投资人和工程实践者与我交流。">I welcome conversations with researchers, founders, investors, and builders working on ambitious problems in robotics and AI.</p>
-        <div class="connect-links"><a href="https://github.com/zhangyangang" target="_blank" rel="noreferrer">GitHub ↗</a><a href="mailto:caveman1984@gmail.com">Email ↗</a></div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="shell"><span>© <span id="year"></span> Yangang Zhang</span><span data-en="AI · ROBOTICS · SYSTEMS" data-zh="人工智能 · 机器人 · 系统">AI · ROBOTICS · SYSTEMS</span></footer>
-  <script src="script.js"></script>
-</body>
-</html>
+  <section id="publications"><h2 data-en="Selected Publications" data-zh="代表论文">Selected Publications</h2><p class="hint" data-en="* Selected papers and technical reports. My name is highlighted." data-zh="* 部分代表性论文与技术报告，姓名已加粗。">* Selected papers and technical reports. My name is highlighted.</p>
+    <article class="paper"><time>2026</time><div><h3>BagelVLA: Enhancing Long-Horizon Manipulation via Interleaved Vision-Language-Action Generation</h3><p>Yucheng Hu, Jianke Zhang, Yuanfei Luo, Yanjiang Guo, Xiaoyu Chen, Sun Xinshu, Kun Feng, Qingzhou Lu, Sheng Chen, <strong>Yangang Zhang</strong>, Wei Li, Jianyu Chen</p><p class="venue">Robotics: Science and Systems (RSS), 2026 · <a href="https://roboticsconference.org/program/papers/83/">Paper</a></p></div></article>
+    <article class="paper"><time>2026</time><div><h3>VLingNav: Embodied Navigation with Adaptive Reasoning and Visual-Assisted Linguistic Memory</h3><p>Shaoan Wang, Yuanfei Luo, Xingyu Chen, Aocheng Luo, Dongyue Li, Chang Liu, Sheng Chen, <strong>Yangang Zhang</strong>, Junzhi Yu</p><p class="venue">arXiv:2601.08665 · <a href="https://arxiv.org/abs/2601.08665">Paper</a> · <a href="https://wsakobe.github.io/VLingNav-web/">Project</a></p></div></article>
+    <article class="paper"><time>2025</time><div><h3>UniUGP: Unifying Understanding, Generation, and Planning for End-to-end Autonomous Driving</h3><p>Hao Lu, Ziyang Liu, Guangfeng Jiang, Yuanfei Luo, Sheng Chen, <strong>Yangang Zhang</strong>, Ying-Cong Chen</p><p class="venue">arXiv:2512.09864 · <a href="https://arxiv.org/abs/2512.09864">Paper</a> · <a href="https://seed-uniugp.github.io/">Project</a></p></div></article>
+    <article class="paper"><time>2025</time><div><h3>Learning Vision-Driven Reactive Soccer Skills for Humanoid Robots</h3><p>Yushi Wang, Changsheng Luo, Penghui Chen, Jianran Liu, Weijian Sun, Tong Guo, Kechang Yang, Biao Hu, <strong>Yangang Zhang</strong>, Mingguo Zhao</p><p class="venue">arXiv:2511.03996 · <a href="https://arxiv.org/abs/2511.03996">Paper</a> · <a href="https://humanoid-kick.github.io/">Project</a></p></div></article>
+    <article class="paper"><time>2025</time><div><h3>Astra: Toward General-Purpose Mobile Robots via Hierarchical Multimodal Learning</h3><p>Sheng Chen, Peiyu He, Jiaxin Hu, et al., <strong>Yangang Zhang</strong></p><p class="venue">Astra Technical Report · <a href="https://arxiv.org/abs/2506.06205">Paper</a> · <a href="https://seed.bytedance.com/en/public_papers/astra-toward-general-purpose-mobile-robots-via-hierarchical-multimodal-learning">Project</a></p></div></article>
+  </section>
+</main>
+<footer class="wrap"><span>© <span id="year"></span> Yangang Zhang</span><span>caveman1984@gmail.com</span></footer><script src="script.js"></script>
+</body></html>
