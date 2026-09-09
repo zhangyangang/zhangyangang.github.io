@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+Sitemap: https://zhangyangang.github.io/sitemap.xml
+
