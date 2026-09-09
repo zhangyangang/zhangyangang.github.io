@@ -1,0 +1,12 @@
+{
+  "name": "Yangang Zhang | 张彦刚",
+  "short_name": "Yangang Zhang",
+  "description": "Personal profile and selected publications of Yangang Zhang, a robotics technology leader.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "browser",
+  "background_color": "#101214",
+  "theme_color": "#101214",
+  "lang": "en"
+}
+
